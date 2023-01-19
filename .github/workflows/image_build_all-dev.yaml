@@ -37,7 +37,7 @@ jobs:
     strategy:
       matrix:
         DEVICE: [g1-tpc]
-        EDITION: [lxqt,kde-plasma,xfce]
+        EDITION: [lxqt,xfce]
         BRANCH: [unstable]
     steps:
       - 
